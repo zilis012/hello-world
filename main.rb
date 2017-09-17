@@ -11,7 +11,7 @@ birthday = gets.to_i
 
 age = currentyear - birthyear
 
-if birthmonth > 9 && birthday > 16
+if birthmonth > 9 && birthday > 17
   print "You are #{age - 1} years old!"
 else
   print "You are #{age} years old!"
